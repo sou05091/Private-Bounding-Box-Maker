@@ -78,14 +78,8 @@ YOLO format text file (.txt)
 - Automatic aspect ratio maintenance
 - Real-time image scaling and display
 
-### Video Processing
-- Frame extraction from video files
-- Support for common video formats (mp4, avi)
-- Frame-by-frame navigation
-
 ### Annotation Features
 - Multiple class support
-- Real-time coordinate display
 - Automatic label file generation
 - Undo/Redo functionality
 
