@@ -13,10 +13,8 @@ Private Bounding Box Maker is a labeling tool for object detection that supports
   * Image panning with middle mouse button
   * Precise bounding box creation and editing
 - YOLO format (.txt) label data saving
-- Advanced image navigation and manipulation
 - Bounding box editing and deletion
 - Previous/Next image navigation
-- Video frame extraction and labeling support
 
 ## Installation
 ```bash
@@ -53,24 +51,20 @@ python main.py
 ### Mouse Controls
 - `Mouse Wheel` : Zoom in/out around cursor position
 - `Middle Mouse Button + Drag` : Pan the image
-- `Left Click + Drag` : Create bounding box
-- `Left Click` : Select bounding box
-- `Left Click + Drag (on box)` : Move bounding box
-- `Left Click + Drag (on corner)` : Resize bounding box
 
 ### Keyboard Shortcuts
-- `→` : Next image/frame
-- `←` : Previous image/frame
+- `n` : Next image and save txt file
+- `p` : Previous image/frame
 - `Del` : Delete selected box
-- `Ctrl+S` : Manual save
+- `s` : Selected mode
+- `d` : Draw mode
+- `a` : Auto Detection
 
 ## Output Format
 YOLO format text file (.txt)
 ```
 <class> <x_center> <y_center> <width> <height>
 ```
-- All values are normalized by image dimensions (0~1)
-- Classes start from integer 0
 
 ## System Requirements
 - Python 3.6 or higher
