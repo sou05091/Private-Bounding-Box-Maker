@@ -95,8 +95,5 @@ YOLO format text file (.txt)
 - Status bar with helpful information
 - Progress tracking for large datasets
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Support
 If you encounter any issues or have questions, please file an issue on the GitHub repository.
