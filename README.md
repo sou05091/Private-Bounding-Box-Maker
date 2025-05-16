@@ -4,7 +4,7 @@
 Private Bounding Box Maker is a labeling tool for object detection that supports the YOLO format. Using TkinterDnD, it provides drag-and-drop functionality and an intuitive interface for creating bounding boxes on images efficiently.
 
 ## Demo
-![Demo Video](./demo/bbox_maker.gif)
+![Demo Img](./img/demo.png)
 
 ## Key Features
 - Drag and drop image file loading
