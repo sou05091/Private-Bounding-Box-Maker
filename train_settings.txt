@@ -1,0 +1,8 @@
+model=yolo11n.pt
+epochs=100
+imgsz=640
+batch=16
+name=custom_model
+pretrained=True
+device=0
+workers=8
